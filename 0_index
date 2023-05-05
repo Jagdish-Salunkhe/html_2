@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup</title>
+</head>
+<style>
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display:inline-flex;
+    float: right;
+    flex-direction:row-reverse;
+    margin-right: 10px;
+  }
+  header{
+    background-color:yellow;
+  }
+
+
+  
+</style>
+<body>
+    <header>
+        <nav><strong>Startup</strong>
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Log in</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 id="heading">Startup Landing Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus praesentium nam unde consequatur, sapiente natus at? Eligendi delectus earum quidem, ipsam beatae, necessitatibus aliquam corporis vitae laborum minima unde qui.
+            Fugit sequi maiores cupiditate. Ex eos in quod corrupti blanditiis, dolores laudantium quo suscipit unde sit saepe tenetur quidem amet id doloribus nisi obcaecati natus? Mollitia animi esse recusandae facere.</p>
+            <img src="" alt="">
+            <button>Login</button>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+
+            <form action="">
+                <input type="text" name="Name" placeholder="Name" id="">
+                <input type="email" email="Email" placeholder="Email">
+                <input type="number" MobileNumber="MobileNumber" placeholder="Mobile Number">
+                <input type="text" city="City" placeholder="city"> 
+            </form>
+
+            <button>Submit Form</button>
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SNO.</th>
+                        <th>Startup Name</th>
+                        <th>Startup Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>WowIndia</td>
+                        <td>A Startup with WOW Ideas.</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum text</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum text</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum text</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum text</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum text</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+</body>
+</html>
